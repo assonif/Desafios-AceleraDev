@@ -14,116 +14,403 @@
 </head>
 
 <body>
-	<header id="main-header">
-		<nav class="nav container">
+	<header>
+		<nav class="header-nav container">
+			<a class="nav-logo" href="#">
+				<img src="./img/logo-imdb.jpg" alt="logo">
+			</a>
 
-			<img src="./img/logo-imdb.jpg" alt="Logo" class="logo">
-
-			<nav>
-				<ul>
-					<li>
-						LANÇAMENTOS
-					</li>
-					<li>
-						CRÍTICA
-					</li>
-					<li>
-						EM CARTAZ
-					</li>
-				</ul>
-			</nav>
-
-			<div class="side">
-				<img src="./img/walter-white.jpg" alt="Walter White" class="avatar">
-				<span>
-					Walter White
-				</span>
+			<ul class="header-nav-list">
+				<li><a href="#">LANÇAMENTOS</a></li>
+				<li><a href="#">CRÍTICA</a></li>
+				<li><a href="#">EM CARTAZ</a></li>
+			</ul>
+			
+			<div class="header-nav-profile">
+				<img src="./img/walter-white.jpg" alt="profile">
+				<span>Walter White</span>
 			</div>
 		</nav>
 
 		<div class="content container">
+			
+			<h1 class="content-title">MAD MAX: ESTRADA DA FÚRIA</h1>
 
+			<ul class="content-list">
+				<li><a href="#">AVENTURA</a></li>
+				<li><a href="#">SCI-FI</a></li>
+				<li><a href="#">TERROR</a></li>
+			</ul>
+
+			<a class="content-button" href="#">
+				Assistir Trailer  
+				<i class="fa fa-play-circle-o"></i>
+			</a>
+
+			<div class="content-info">
+				<p>Nos cinemas</p>
+				<p>15 de Outubro de 2015 (Brasil)</p>
+			</div>
 		</div>
 	</header>
 
-	<section class="container">
-			<nav class="categories">
-				<ul>
-					<li>
-						NOS CINEMAS
-					</li>
-					<li>
-						EM BREVE
-					</li>
-					<li>
-						BILHETERIA
-					</li>
-					<li>
-						SÉRIES
-					</li>
-					<li>
-						TRAILERS
-					</li>
-				</ul>
-			</nav>
+	
+	<section class="catalogo">
+		<nav class="menu-catalogo container">
+			<ul class="catalogo-list">
+				<li><a href="#">NOS CINEMAS</a></li>
+				<li><a href="#">EM BREVE</a></li>
+				<li><a href="#">BILHETERIA</a></li>
+				<li><a href="#">SÉRIES</a></li>
+				<li><a href="#">TRAILERS</a></li>
+			</ul>
+		</nav>
 
-			<section class="movies">
-				<ul>
-					<li>
+		<div class="movies container">
+			<ul class="movie-list">
 
-					</li>
-					
-					<li>
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-moonlight.jpg" alt="MOONLIGHT">
 						
-					</li>
-					
-					<li>
+						<div class="movie-poster-hover">
+							<span>MOONLIGHT</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">MOONLIGHT</p>
+
+						<p class="movie-types">
+							<a href="#" class="type">Drama</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+				
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-bladerunner.jpg" alt="BLADE RUNNER">
 						
-					</li>
-					
-					<li>
+						<div class="movie-poster-hover">
+							<span>BLADE RUNNER</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">BLADE RUNNER</p>
 						
-					</li>
-					
-					<li>
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">SCI-FI</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-mad-max.jpg" alt="MAD MAX">
 						
-					</li>
-					
-					<li>
+						<div class="movie-poster-hover">
+							<span>MAD MAX</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">MAD MAX</p>
 						
-					</li>
-					
-					<li>
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">SCI-FI</a>
+							<a href="#" class="type">Terror</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-alita.jpg" alt="ALITA">
 						
-					</li>
-					
-					<li>
+						<div class="movie-poster-hover">
+							<span>ALITA</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">ALITA</p>
 						
-					</li>
-					
-					<li>
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">SCI-FI</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-batman-superman.jpg" alt="BATMAN VS SUPERMAN">
 						
-					</li>
-					
-					<li>
+						<div class="movie-poster-hover">
+							<span>BATMAN VS SUPERMAN</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">BATMAN VS SUPERMAN</p>
 						
-					</li>
-					
-					<li>
+						<p class="movie-types">
+							<a href="#" class="type">Ação</a>
+							<a href="#" class="type">Drama</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-jurassic-world.jpg" alt="JURASSIC WORLD">
 						
-					</li>
-					
-					<li>
+						<div class="movie-poster-hover">
+							<span>JURASSIC WORLD</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">JURASSIC WORLD</p>
 						
-					</li>
-					
-					<li>
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">Terror</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-guerra-civil.jpg" alt="GUERRA CIVIL">
 						
-					</li>
-					
-				</ul>
-			</section>
+						<div class="movie-poster-hover">
+							<span>GUERRA CIVIL</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">GUERRA CIVIL</p>
+						
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">Ação</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-capita-marvel.jpg" alt="CAPITÃ MARVEL">
+						
+						<div class="movie-poster-hover">
+							<span>CAPITÃ MARVEL</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">CAPITÃ MARVEL</p>
+						
+						<p class="movie-types">
+							<a href="#" class="type">SCI-FI</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-coringa.jpg" alt="CORINGA">
+						
+						<div class="movie-poster-hover">
+							<span>CORINGA</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">CORINGA</p>
+						
+						<p class="movie-types">
+							<a href="#" class="type">Suspense</a>
+							<a href="#" class="type">Drama</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-liga-justica.jpg" alt="LIGA DA JUSTIÇA">
+						
+						<div class="movie-poster-hover">
+							<span>LIGA DA JUSTIÇA</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">LIGA DA JUSTIÇA</p>
+						
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">Ação</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-star-wars.jpg" alt="STAR WARS VII">
+						
+						<div class="movie-poster-hover">
+							<span>STAR WARS VII</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">STAR WARS VII</p>
+						
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">SCI-FI</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+				<li class="movie-item">
+					<figure class="movie-poster">
+						<img src="./img/poster-pantera-negra.jpg" alt="PANTERA NEGRA">
+						
+						<div class="movie-poster-hover">
+							<span>PANTERA NEGRA</span>
+							<a href="#">
+								<i class="fa fa-play"></i>
+							</a>
+						</div>
+					</figure>
+
+					<div class="movie-info">
+						<p class="movie-title">PANTERA NEGRA</p>
+						
+						<p class="movie-types">
+							<a href="#" class="type">Aventura</a>
+							<a href="#" class="type">SCI-FI</a>
+						</p>
+
+						<div class="movie-footer">
+							<i class="fa fa-heart"></i>
+							<span>7.0</span>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
 	</section>
+
+	<footer class="container">
+		<img src="./img/logo-imdb.jpg" alt="logo">
+
+		<ul class="icons">
+			<li>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-facebook-official"></i></a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+			</li>
+		</ul>
+	</footer>
 </body>
 
 </html>
